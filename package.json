@@ -1,0 +1,26 @@
+{
+  "name": "mongo-mongoose-extended-session-2019",
+  "version": "1.0.0",
+  "description": "A Mongo/Mongoose extended session for the coding boot camp at UCSD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Travo100/mongo-mongoose-extended-session-2019.git"
+  },
+  "author": "Travis Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Travo100/mongo-mongoose-extended-session-2019/issues"
+  },
+  "homepage": "https://github.com/Travo100/mongo-mongoose-extended-session-2019#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.4"
+  }
+}
