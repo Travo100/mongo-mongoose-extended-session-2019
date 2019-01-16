@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb://localhost:27017/webdb', {useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/webdb', {useNewUrlParser: true});
 
 // create a scrape route
 app.get("/scrape", function (req, res) {
